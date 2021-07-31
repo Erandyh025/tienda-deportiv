@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "tienda-deportiva"
+  "defaultProject": "tienda-deportiva",
+  "cli": {
+    "analytics": false
+  }
 }
