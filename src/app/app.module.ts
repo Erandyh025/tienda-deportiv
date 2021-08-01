@@ -9,14 +9,6 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    InfoComponent,
-    NavbarComponent,
-    InicioComponent,
-    CatalogoComponent
-    ],
 
 @NgModule({
   declarations: [
@@ -24,7 +16,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     ContactoComponent,
     NavbarComponent,
     InicioComponent,
-    CatalogoComponent
+    CatalogoComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
